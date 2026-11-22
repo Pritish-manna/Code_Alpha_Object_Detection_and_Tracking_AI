@@ -1,0 +1,6 @@
+{
+  "_comment": "GROUND-TRUTH aliases only: dataset folder name -> COCO class the object should be detected as. Never used to relabel predictions.",
+  "books": "book",
+  "mobile_phone": "cell phone",
+  "water_bottle": "bottle"
+}

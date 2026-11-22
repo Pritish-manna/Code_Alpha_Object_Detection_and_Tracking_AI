@@ -1,0 +1,16 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{margin:0;color:#e8ecf6;font-family:Inter,system-ui,sans-serif;min-height:100vh;
+background:radial-gradient(900px 500px at 10% 0%,rgba(124,58,237,.28),transparent),radial-gradient(900px 500px at 100% 100%,rgba(6,182,212,.22),transparent),#0a0f1f}
+.glass{background:rgba(255,255,255,.06);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.12);border-radius:20px;box-shadow:0 8px 32px rgba(0,0,0,.35)}
+.lg-btn{display:inline-flex;gap:8px;align-items:center;padding:10px 16px;border-radius:14px;color:#fff;font-size:14px;cursor:pointer;
+background:linear-gradient(135deg,rgba(59,130,246,.25),rgba(168,85,247,.2));backdrop-filter:blur(12px);border:1px solid rgba(103,232,249,.35);transition:all .2s}
+.lg-btn:hover{box-shadow:0 0 18px rgba(34,211,238,.5);transform:translateY(-1px)}
+.lg-btn:active{transform:scale(.95)}.lg-btn:disabled{opacity:.4;cursor:not-allowed;box-shadow:none;transform:none}
+.lg-btn.on{box-shadow:0 0 22px rgba(59,130,246,.8)}
+.lg-select{width:100%;padding:10px 12px;border-radius:14px;color:#fff;font-size:14px;cursor:pointer;outline:none;
+background:linear-gradient(135deg,rgba(59,130,246,.18),rgba(168,85,247,.14));backdrop-filter:blur(12px);border:1px solid rgba(103,232,249,.35)}
+.lg-select:focus{box-shadow:0 0 14px rgba(34,211,238,.45)}.lg-select:disabled{opacity:.5;cursor:not-allowed}
+.lg-select option{background:#0f172a;color:#e8ecf6}
+.lg-range{accent-color:#22d3ee}
+.lg-btn:focus-visible,.lg-select:focus-visible{outline:2px solid #22d3ee;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation-duration:.01ms!important}}
